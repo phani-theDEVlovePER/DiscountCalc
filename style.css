@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body{
+    background-color: #5cdb95;
+}
+
+.wrapper{
+    background-color: #05386b;
+    color: white;
+    height: 530px;
+    width: 360px;
+    border-radius: 1rem;
+    margin: 100px auto;
+    padding: 1.2rem;
+}
+
+.container{
+    margin-top: 2.4rem;
+}
+
+#topContainer{
+    margin-top: 4rem;
+}
+
+.title{
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.inputcontainer{
+    background-color: #190061;
+    border-radius: 1rem;
+    padding: 0 0.8rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#billTotalInput, #discountInput{
+    font-size: 1.7rem;
+    background: none;
+    border: none;   
+    outline: none;
+    width: 100%;
+}
+
+#bottomContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.discountCash{
+    display: flex;
+    flex-direction: column;
+}
+
+.totalContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.total{
+    font-size: 2rem;
+    margin-top: 0.2rem;
+}
+/* others */
+.center{
+    display: flex;
+    justify-content: center;
+}
+span{
+    font-size: 1.6rem;
+}
